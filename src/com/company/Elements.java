@@ -19,6 +19,8 @@ public enum Elements {
         this.series = series;
         this.name = name;
         System.out.println();
+        System.out.println();
+        System.out.print("Hello");
     }
     }
 
