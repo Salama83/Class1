@@ -6,6 +6,7 @@ public class Main {
      for (Elements item: Elements.values()) {
             System.out.println(item.getName());
          System.out.println(item.getSeries());
+         System.out.println();
         }
     }
-}
+} 

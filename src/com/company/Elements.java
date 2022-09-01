@@ -6,8 +6,8 @@ public enum Elements {
     B ("Бор", 5),
     C ("Угрелод", 6);
 
-    private String name;
-    private  int series;
+    private final String name;
+    private final int series;
 
     public  String getName(){
         return name;
@@ -18,6 +18,7 @@ public enum Elements {
     Elements( String name, int series){
         this.series = series;
         this.name = name;
+        System.out.println();
     }
     }
 
